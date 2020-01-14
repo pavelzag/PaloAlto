@@ -56,6 +56,7 @@ def test_login_with_empty_user():
     assert response != 200, 'test login succeeded with an empty user and {} password'.format(password)
 
 
+
 def test_login_with_bad_user():
     '''
     This test checks logging in with a bad user
